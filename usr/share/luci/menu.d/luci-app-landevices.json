@@ -1,7 +1,6 @@
 {
 	"admin/network/landevices": {
 		"title": "LAN Devices",
-		"order": 90,
 		"action": {
 			"type": "view",
 			"path": "landevices"
