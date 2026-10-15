@@ -1,0 +1,15 @@
+{
+	"luci-app-landevices": {
+		"description": "Grant access to LAN Devices data",
+		"read": {
+			"ubus": {
+				"landevices": [ "data" ]
+			}
+		},
+		"write": {
+			"ubus": {
+				"landevices": [ "refresh", "clear" ]
+			}
+		}
+	}
+}
